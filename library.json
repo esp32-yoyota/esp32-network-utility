@@ -1,0 +1,29 @@
+{
+    "name": "ESP32Utility",
+    "version": "0.1.0-alpha",
+    "keywords": "",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yoyota/esp32-utility.git"
+    },
+    "exclude": [
+        "test"
+    ],
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266",
+        "espressif32"
+    ],
+    "license": "MIT",
+    "dependencies": [
+        {
+            "name": "WiFiManager",
+            "version": "https://github.com/tzapu/WiFiManager.git#v2.0.14-beta"
+        },
+        {
+            "name": "PubSubClient",
+            "version": "https://github.com/knolleary/pubsubclient"
+        }
+    ]
+}
