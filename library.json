@@ -5,7 +5,7 @@
     "description": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yoyota/esp32-utility.git"
+        "url": "https://github.com/yoyota/esp32-network-utility.git"
     },
     "exclude": [
         "test"
