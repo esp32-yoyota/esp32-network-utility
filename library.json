@@ -1,11 +1,11 @@
 {
-    "name": "ESP32Utility",
+    "name": "NetworkUtility",
     "version": "0.1.0-alpha",
     "keywords": "",
     "description": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yoyota/esp32-network-utility.git"
+        "url": "https://github.com/esp32-yoyota/esp32-network-utility.git"
     },
     "exclude": [
         "test"
