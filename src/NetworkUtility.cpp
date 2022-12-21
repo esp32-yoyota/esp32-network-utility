@@ -19,9 +19,9 @@ void reconnectWifi()
 {
 	auto &wm = getWifiManager();
 	if (WiFi.status() != WL_CONNECTED) {
-		Serial.println("WIFI is not connected");
+		log_d("wifi is not connected");
 		if (!wm.autoConnect()) {
-			Serial.println("restart");
+			log_d("restart device");
 			ESP.restart();
 		}
 	}
@@ -61,7 +61,7 @@ bool reconnectPubSubClient()
 	if (pubSubClient.connect(getMACAddress().c_str())) {
 		return true;
 	} else {
-		Serial.println("PubSubClient connection failed");
+		log_d("PubSubClient connection failed");
 		return false;
 	}
 }
